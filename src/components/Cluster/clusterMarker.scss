@@ -1,0 +1,25 @@
+.cluster {
+  position: absolute;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  left: -60px / 2;
+  top: -60px / 2;
+
+  // border: 5px solid #004336;
+  border-radius: 50%;
+  background-color: rgba(26, 84, 220, 0.53);
+  text-align: center;
+  color: #white;
+
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .text {
+    color: white;
+    font-weight: normal;
+  }
+}

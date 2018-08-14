@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.searchbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  left: 20px;
+  top: 20px;
+}
+
+.ais-SearchBox__input {
+  background: rgba(26, 84, 220, 0.53) !important;
+  color: white;
+}
